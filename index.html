@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Module 3 Solution</title> 
-<link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/styles.css">
-
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">  
  <style>
 body{
 font-size: 16px;
@@ -120,47 +120,80 @@ padding: 5px 15px;
 <body>
 <header>
 <nav id="header-nav" class="navbar navbar-default">
-<div class="container">
+<div class="container-fluid">
 <div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapsable-nav" aria=expanded="false">
+<div class="navbar-brand">
+<a href="index.html"><h1>Food,LLC</h1></a> 
+<button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria=expanded="false">
 <span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a href="#" class="text-left navbar-brand"><h1>Food,LLC</h1></a>
-</div>
-<div id="menu-collapsable-nav" class="collapse navbar-collapse">
+</div> 
+<div id="collapsable-nav" class="collapse navbar-collapse">
 <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
 <li>
-<a href="#">Chicken</a>
+<a href="#chicken-tile"><br class="hidden-xs">Chicken</a>
 </li>
 <li>
-<a href="#">Beef</a>
+<a href="#beef-tile"><br class="hidden-xs">Beef</a>
 </li>
 <li>
-<a href="#">Sushi</a> 
+<a href="#sushi-tile"><br class="hidden-xs">Sushi</a> 
 </li>
 </ul>
 </div>
 </div>
 </nav>
-<section class="container-fluid menu">
-<div class="row"> 
-<h1 class="text-center main-title">Our Menu</h1>
-<div class="menu-content">
-<div class="col-md-12 col-sm-12 col-xs-12 menu-item">
-<h4 class="menu-title text-center">Chicken</h4>
-<p class="text-justify"> 
+</header>
+
+<div id="main-content" class="container">
+<h2 id="top-heading" class="text-center">Our Menu</h2> 
+<div id="home-tiles" class="row">
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div id="chicken-tile">
+<section>
+<h3 class="text-center">Chicken</h3> 
+<p> 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. Lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis semper risus, et efficitur just suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. 
 </p>
-</div>
-</div>
-</div>
+<p>
+(End of Chicken section)<a href="#top-heading">Back to Top</a>
+</p>
 </section>
-</header>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div id="beef-tile">
+<section>
+<h3 class="text-center">Beef</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. Lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis semper risus, et efficitur just suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. 
+</p>
+<p>
+(End of Beef section)<a href="#top-heading">Back to Top</a>
+</p>
+</section>
+</div>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12">
+<div id="sushi-tile">
+<section>
+<h3 class="text-center">Sushi</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. Lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis semper risus, et efficitur just suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficiturjusto suscipit ac. 
+</p>
+<p>
+(End of Sushi section)<a href="#top-heading">Back to Top</a>
+</p>
+</section>
+</div>
+</div> 
+</div>
+</div>
+<div class="clearfix visible-lg-block"></div> 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
 </body>
 </html>
