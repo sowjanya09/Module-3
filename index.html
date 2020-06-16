@@ -12,110 +12,78 @@
  <style>
 body{
 font-size: 16px;
-font-family: 'Exo 2',sans-serif; 
+font-family: 'Source Sans Pro',sans-serif; 
+color: #1a1a1a;
+background-color: #599e4b; 
 }
-.navbar header button.navbar-toggle,.navbar-header .icon-bar{
- border: 2px solid #000 !important;
-}
+
 #header-nav{
-border: 2px solid:#000;
-background-color: #999999;
+background-color: #c98715;
 border-radius: 0;
-}  
-.navbar-brand{
-margin-top: 10px;
-padding-top:10px; 
-}
-
-
-#chicken-div{
-margin-bottom: 10px;
-margin-top:10px;
-}
-#beef-div{
-margin-bottom:10px;
-margn-top:10px;
-}
-#sushi-div{
-margin-bottom:10px;
-margn-top:10px;
-}
-.navbar-nav{
-margin: 0-15px !important;
+border:0; 
 } 
-.navbar-brand h1{
-color: #000;
-font-size: 1.5em;
-font-weight: bold;
-margin-top: 0;
-margin-bottom: 0;
-line-height: .75;
-margin-left: 15px; 
+#header-nav button{
+margin-top: 22px;
 }
-.navbar-header a:hover,.navbarbrand a:focus{
-text-decoration: none;
+.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{
+background-color:#fce29e;
+}
+.navbar-collapse{
+border-top:0;
+}
+.navbar-brand, .navbar-nav li a{
+line-height: 76px;
+height: 76px;
+padding-top: 0;
+}
+.navbar-brand h1{
+color:#7d1913;
+font-family:'Abril FatFace',cursive;
+font-weight:bolder;
+font-size:1.8em;
+} 
+.navbar-brand a:hover{
+text-decoration:none;
+text-shadow:1px 1px 1px #fe9797;
 }
 #nav-list{
-border: 1px solid;
+background-color:#e4af34;
+}
+#nav-list a{
+font-weight:bolder;
+color:#282828;
+font-size:1.2em;
 } 
-#nav-list:nth-child(3){
-border-bottom: 0;
-} 
-#nav-list li{
-background: #fff;
-border-bottom: 2px solid;
+#nav-list a:hover{
+color:#202020;
+background-color:#fce29e;
 }
-#nav-list li:nth-child(3){
-border-bottom: 0; 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+border:1px solid #7d1913;
 }
-#nav-list li a{
-color: #000;
-font-weight:600;
-line-height: 8px;
+#main-content{
+width: 92%;
+margin-bottom:30px;
 }
-.menu{
-margin: 15px;
-}
-.main-title{
+#main-content h2{
+font-size: 2.9em;
 font-weight: bold;
-margin-top:40px;
+margin-top: 30px;
+margin-bottom: 50px;
 }
-.menu-content{
-margin-top:40px;
-}
-.menu-title{
+#main-content h3{
+font-size: 1.6em;
 font-weight: bold;
+margin-bottom: 1em;
 }
-.menu-item{
-margin-bottom: 20px;
-background: #999999;
-padding: 10px;
-} 
-.menu-item h4{
-font-weight: bold;
+#chicken-tile, #beef-tile, #sushi-tile{
+width:100%;
+padding: 20px;
+background-color: #99ed7b;
+margin-bottom: 60px;
+box-shadow: 0 0 80px #18580b;
 }
-.menu-item p{
-font-weight: 600;
-font-size: .9em;
-padding: 5px 10px;
-} 
-@media (max-width: 767px){
-.navbar-brand: focus, .navbar-brand{
-margin-left: 10px;
-}
-.menu{
-width: 80%;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 15px;
-} 
-.menu-item p{
-font-weight: 600;
-font-size: 1em;
-padding: 5px 15px;
-} 
-}
- </style>
+</style>
 </head>
 <body>
 <header>
