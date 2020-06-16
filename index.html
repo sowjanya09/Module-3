@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,12 +14,12 @@
 </style>
 </head>
 <body>
-<header>
+<header class="nav-header">
 <nav id="header-nav" class="navbar navbar-default">
 <div class="container">
 <div class="navbar-header">
 <div class="navbar-brand">
-<a href="index.html"><h1>Food,LLC</h1></a> 
+<p class="nav-brand"><h1>Food,LLC</h1></p> 
 </div> 
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria=expanded="true">
 <span class="sr-only">Toggle navigation</span>
@@ -29,27 +29,27 @@
 </button>
 </div> 
 <div id="collapsable-nav" class="collapse navbar-collapse">
-<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-<li>
-<a href="#chicken-div"><br class="hidden-xs">Chicken</a>
+<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+<li class="text-center chicken-item">
+<a href="#chicken-div"><p class="item">Chicken</p></a>
+<hr class="visible-xs"> 
 </li>
-<li>
-<a href="#beef-div"><br class="hidden-xs">Beef</a>
+<li class="text-center beef-item">
+<a href="#beef-div"><p class="item">Beef</p></a>
+<hr class="visible-xs"> 
 </li>
-<li>
-<a href="#sushi-div"><br class="hidden-xs">Sushi</a> 
+<li class="text-center sushi-item">
+<a href="#sushi-div"><p class="item">Sushi</p></a> 
+<hr class="visible-xs">
 </li>
 </ul>
 </div>
 </div>
 </nav>
 </header>
-
-<div id="main-content" class="container">
-<h2 id="top-heading" class="text-center">Our Menu</h2> 
-<div id="home-tiles" class="row">
-<div class="col-md-12 col-sm-12 col-xs-12">
-<div id="chicken-div">
+<h1 class="text-center">Our Menu</h1>
+<div class="row container container-fluid">
+<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div>
 <section>
 <h3 class="text-center">Chicken</h3> 
 <p> 
@@ -60,9 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum s
 </p>
 </section>
 </div>
-</div>
-<div class="col-md-12 col-sm-12 col-xs-12">
-<div id="beef-div">
+<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
 <section>
 <h3 class="text-center">Beef</h3> 
 <p> 
@@ -73,9 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum s
 </p>
 </section>
 </div>
-</div>
-<div class="col-md-12 col-sm-12 col-xs-12">
-<div id="sushi-div">
+<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
 <section>
 <h3 class="text-center">Sushi</h3> 
 <p> 
@@ -85,7 +81,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum s
 (End of Sushi section)<a href="#top-heading">Back to Top</a>
 </p>
 </section>
-</div>
 </div> 
 </div>
 </div>
